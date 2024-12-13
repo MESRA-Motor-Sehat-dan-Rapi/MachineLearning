@@ -1,0 +1,1011 @@
+{
+    "intents": [
+      {
+        "tag": "notfound",
+        "patterns": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "responses": [
+          "Maaf tidak tahu",
+          "saya tidak tahu",
+          "kata diluar kemampuan kami",
+          "mungkin anda bisa menanyakan mengenai aplikasi ini"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "sapaan",
+        "patterns": [
+          "Halo",
+          "Hai",
+          "Selamat pagi",
+          "Selamat malam",
+          "Apa kabar?",
+          "Tolong bantu saya",
+          "Hai bot",
+          "Halo, ada yang bisa saya tanyakan tentang motor?",
+          "Motor saya rusak",
+          "Ada masalah pada motor saya"
+        ],
+        "responses": [
+          "Halo, ada yang bisa saya bantu terkait motor Anda?",
+          "Hai, apa masalah motor Anda hari ini?",
+          "Silakan tanyakan, saya siap membantu permasalahan motor Anda."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "motor_sulit_dihidupkan",
+        "patterns": [
+          "Kenapa motor tidak mau menyala?",
+          "Motor saya susah dihidupkan.",
+          "Mengapa motor sulit start?",
+          "Apa penyebab motor susah hidup?"
+        ],
+        "responses": [
+          "Motor sulit dihidupkan bisa disebabkan oleh aki lemah, busi kotor atau rusak, atau karburator yang tersumbat. Periksa komponen tersebut atau coba starter ulang setelah beberapa saat."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "ganti_oli",
+        "patterns": [
+          "Bagaimana cara mengganti oli motor?",
+          "Apa langkah-langkah mengganti oli?",
+          "Kapan harus mengganti oli motor?"
+        ],
+        "responses": [
+          "Untuk mengganti oli motor:\n1. Panaskan mesin sebentar.\n2. Buka baut pembuangan oli.\n3. Tunggu oli lama keluar sepenuhnya.\n4. Pasang kembali baut pembuangan dan isi oli baru.\n5. Gunakan oli yang sesuai dengan spesifikasi motor Anda."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "motor_berisik",
+        "patterns": [
+          "Kenapa motor saya berisik?",
+          "Apa penyebab suara motor kasar?",
+          "Motor saya suaranya tidak normal."
+        ],
+        "responses": [
+          "Suara berisik pada motor dapat disebabkan oleh rantai kendor, knalpot bocor, atau mesin kekurangan pelumas. Periksa bagian tersebut dan segera atasi untuk mencegah kerusakan lebih lanjut."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "motor_nyendat",
+        "patterns": [
+          "Kenapa motor saya nyendat saat jalan?",
+          "Apa penyebab motor nyendat?",
+          "Motor sering tersendat."
+        ],
+        "responses": [
+          "Motor nyendat bisa disebabkan oleh filter udara kotor, karburator bermasalah, atau pengapian yang tidak stabil. Pastikan komponen tersebut bersih dan berfungsi dengan baik."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "terima_kasih",
+        "patterns": [
+          "Terima kasih",
+          "Thanks",
+          "Makasih",
+          "Terima kasih atas bantuannya."
+        ],
+        "responses": [
+          "Sama-sama, semoga informasi ini membantu!",
+          "Sama-sama, jika ada pertanyaan lain seputar motor, jangan ragu untuk bertanya."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "cek_rantai_motor",
+        "patterns": [
+          "Bagaimana cara memeriksa rantai motor?",
+          "Bagaimana cara mengetahui kondisi rantai motor?",
+          "Bagaimana cara cek rantai motor?",
+          "Cara merawat rantai motor?",
+          "Bagaimana memastikan rantai motor tidak kendor?"
+        ],
+        "responses": [
+          "Periksa rantai motor dengan memastikan tegangannya tidak terlalu kencang atau kendor. Gunakan pelumas rantai secara rutin untuk menjaga kelenturan dan mencegah karat."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "cek_rem_motor",
+        "patterns": [
+          "Bagaimana cara memeriksa rem motor?",
+          "Bagaimana cara mengetahui kondisi rem motor?",
+          "Bagaimana cara cek rem motor?",
+          "Apa tanda rem motor tidak pakem?",
+          "Cara merawat rem motor agar tetap aman?"
+        ],
+        "responses": [
+          "Periksa rem motor dengan mencoba rem depan dan belakang. Pastikan kampas rem tidak aus dan cairan rem cukup untuk rem cakram."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "motor_overheat",
+        "patterns": [
+          "Kenapa motor saya cepat panas?",
+          "Apa penyebab mesin motor overheat?",
+          "Motor overheat, apa yang harus dilakukan?"
+        ],
+        "responses": [
+          "Motor yang cepat panas bisa disebabkan oleh oli yang tidak sesuai atau habis, radiator kotor, atau sistem pendingin bermasalah. Periksa komponen tersebut dan ganti oli jika perlu."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "motor_boros_bensin",
+        "patterns": [
+          "Kenapa motor saya boros bensin?",
+          "Apa penyebab konsumsi bensin motor tinggi?",
+          "Motor jadi boros bahan bakar, kenapa?"
+        ],
+        "responses": [
+          "Motor boros bensin dapat disebabkan oleh filter udara kotor, busi tidak optimal, atau tekanan ban yang tidak sesuai. Pastikan filter udara bersih, busi dalam kondisi baik, dan ban memiliki tekanan ideal."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "aksesoris_motor",
+        "patterns": [
+          "Aksesoris motor apa yang direkomendasikan?",
+          "Tips memilih aksesoris motor?",
+          "Apa aksesoris penting untuk motor?"
+        ],
+        "responses": [
+          "Beberapa aksesoris penting meliputi pelindung tangan, box penyimpanan, kaca spion tambahan, dan kunci pengaman untuk keamanan ekstra."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "tips_berkendara_aman",
+        "patterns": [
+          "Bagaimana tips berkendara motor yang aman?",
+          "Apa saja yang harus diperhatikan saat naik motor?",
+          "Tips agar selamat berkendara motor?"
+        ],
+        "responses": [
+          "Gunakan helm standar SNI, selalu nyalakan lampu sein saat berbelok, patuhi kecepatan maksimal, dan periksa kondisi motor sebelum perjalanan."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "jenis_motor",
+        "patterns": [
+          "Apa perbedaan motor matic, bebek, dan sport?",
+          "Jenis motor apa yang cocok untuk sehari-hari?",
+          "Motor sport vs matic, mana yang lebih baik?"
+        ],
+        "responses": [
+          "Motor matic cocok untuk penggunaan sehari-hari di perkotaan, motor bebek lebih hemat bahan bakar, dan motor sport lebih bertenaga untuk perjalanan jarak jauh."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "masalah_listrik_motor",
+        "patterns": [
+          "Kenapa lampu motor saya mati?",
+          "Apa yang menyebabkan starter motor tidak berfungsi?",
+          "Bagaimana cara memperbaiki klakson motor yang mati?"
+        ],
+        "responses": [
+          "Lampu mati biasanya disebabkan oleh bohlam putus atau kabel longgar. Starter tidak berfungsi bisa disebabkan oleh aki lemah atau tombol starter rusak. Cek kabel dan sambungan untuk mengatasi masalah klakson."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "tidak",
+        "patterns": [
+          "Tidak",
+          "Ga ada",
+          "Cukup, terima kasih."
+        ],
+        "responses": [
+          "Baiklah, semoga motor Anda selalu dalam kondisi baik!",
+          "Oke, jangan ragu kembali jika butuh bantuan seputar motor."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "salam",
+        "patterns": ["Hai", "Halo", "Apa kabar?", "Selamat pagi", "Selamat siang"],
+        "responses": ["Halo!", "Hai, ada yang bisa saya bantu?", "Halo, bagaimana saya dapat membantu Anda?"]
+      },
+      {
+        "tag": "kemampuan_bot",
+        "patterns": ["Apa yang bisa kamu lakukan?", "Fungsi kamu apa?", "Kamu bisa bantu apa?", "Apa saja yang bisa kamu lakukan?"],
+        "responses": ["Saya dapat membantu Anda dengan panduan perbaikan dan perawatan motor. Silakan tanyakan apa yang ingin Anda ketahui!"]
+      },
+      {
+        "tag": "sepeda_rusak",
+        "patterns": ["Sepeda saya rusak", "Motor saya bermasalah", "Kendaraan saya tidak berfungsi", "Ada masalah dengan motor saya", "Motor saya rusak"],
+        "responses": ["Maaf mendengar itu. Bisa Anda jelaskan lebih detail masalah pada motor Anda agar saya bisa membantu?"],
+        "context": "sepeda_rusak"
+      },
+      {
+        "tag": "sepeda_rusak_spion",
+        "patterns": ["Di bagian spion", "Spionnya", "Masalah pada spion", "Spion rusak"],
+        "responses": ["Apakah spion Anda patah atau kaca spion retak?"],
+        "context_filter": "sepeda_rusak",
+        "context": "perbaikan_spion"
+      },
+      {
+        "tag": "perbaikan_spion_patah",
+        "patterns": ["Spion patah", "Spion lepas", "Patah"],
+        "responses": [
+          "Untuk memperbaiki spion yang patah, Anda perlu mengganti spion tersebut.\n\n**Langkah-langkah:**\n1. Beli spion pengganti yang sesuai dengan motor Anda.\n2. Siapkan obeng dan kunci pas.\n3. Lepaskan spion yang patah dengan membuka baut pengikat.\n4. Pasang spion baru dan kencangkan baut pengikat.\n\n**Alat dan Bahan:** Spion baru, obeng, kunci pas."
+        ],
+        "context": "perbaikan_spion"
+      },
+      {
+        "tag": "perbaikan_spion_kaca_retak",
+        "patterns": ["Kaca spion retak", "Spion retak", "Kaca spion pecah"],
+        "responses": [
+          "Jika kaca spion retak, Anda dapat mengganti kacanya atau keseluruhan spion jika diperlukan.\n\n**Langkah-langkah:**\n1. Beli kaca spion pengganti atau spion baru.\n2. Lepaskan kaca spion yang retak.\n3. Pasang kaca spion baru dengan hati-hati.\n\n**Alat dan Bahan:** Kaca spion baru, obeng."
+        ],
+        "context": "perbaikan_spion"
+      },
+      {
+        "tag": "ganti_oli_awal",
+        "patterns": ["Kapan harus ganti oli?", "Bagaimana cara ganti oli motor?", "Panduan ganti oli", "Motor saya perlu ganti oli"],
+        "responses": ["Apakah Anda ingin mengetahui jadwal penggantian oli atau cara menggantinya?"],
+        "context": "ganti_oli"
+      },
+      {
+        "tag": "ganti_oli_jadwal",
+        "patterns": ["Jadwal penggantian oli", "Seberapa sering ganti oli", "Kapan harus ganti oli"],
+        "responses": [
+          "Sebaiknya ganti oli setiap 2000 km atau sesuai rekomendasi pabrik. Pastikan mesin dalam kondisi hangat saat mengganti oli."
+        ],
+        "context": "ganti_oli"
+      },
+      {
+        "tag": "ganti_oli_cara",
+        "patterns": ["Cara mengganti oli", "Langkah-langkah ganti oli", "Bagaimana cara menggantinya"],
+        "responses": [
+          "Berikut adalah langkah-langkah untuk mengganti oli:\n\n**Langkah-langkah:**\n1. Panaskan mesin selama 5 menit.\n2. Siapkan wadah untuk menampung oli bekas.\n3. Buka baut pembuangan oli di bawah mesin.\n4. Biarkan oli lama keluar hingga habis.\n5. Pasang kembali baut pembuangan.\n6. Isi oli baru melalui lubang pengisian.\n\n**Alat dan Bahan:** Oli baru sesuai spesifikasi, kunci pas, wadah penampung oli."
+        ],
+        "context": "ganti_oli"
+      },
+      {
+        "tag": "perawatan_rem_awal",
+        "patterns": ["Bagaimana cara merawat rem motor?", "Tips perawatan rem", "Rem motor saya kurang pakem", "Rem bermasalah"],
+        "responses": ["Bagian rem mana yang bermasalah? Depan atau belakang?"],
+        "context": "perawatan_rem"
+      },
+      {
+        "tag": "perawatan_rem_depan",
+        "patterns": ["Rem depan", "Rem depan kurang pakem", "Masalah pada rem depan"],
+        "responses": [
+          "Berikut adalah cara merawat rem depan:\n\n**Langkah-langkah:**\n1. Periksa ketebalan kampas rem secara berkala.\n2. Ganti kampas rem jika sudah tipis.\n3. Periksa cairan rem dan tambahkan jika perlu.\n\n**Alat dan Bahan:** Kampas rem baru, cairan rem, kunci L atau kunci pas."
+        ],
+        "context": "perawatan_rem"
+      },
+      {
+        "tag": "perawatan_rem_belakang",
+        "patterns": ["Rem belakang", "Rem belakang kurang pakem", "Masalah pada rem belakang"],
+        "responses": [
+          "Berikut adalah cara merawat rem belakang:\n\n**Langkah-langkah:**\n1. Periksa kondisi kampas rem belakang.\n2. Ganti kampas rem jika sudah aus.\n3. Sesuaikan setelan rem untuk mendapatkan pengereman optimal.\n\n**Alat dan Bahan:** Kampas rem baru, kunci pas."
+        ],
+        "context": "perawatan_rem"
+      },
+      {
+        "tag": "masalah_ban_awal",
+        "patterns": ["Ban motor saya bocor", "Bagaimana cara menambal ban?", "Kapan harus ganti ban?", "Ban kempes"],
+        "responses": ["Apakah ban Anda tipe tubeless atau menggunakan ban dalam?"],
+        "context": "masalah_ban"
+      },
+      {
+        "tag": "masalah_ban_tubeless",
+        "patterns": ["Ban tubeless", "Menggunakan ban tubeless"],
+        "responses": [
+          "Untuk ban tubeless yang bocor, Anda bisa menambalnya dengan cara berikut:\n\n**Langkah-langkah:**\n1. Temukan titik bocor pada ban.\n2. Bersihkan area sekitar lubang.\n3. Gunakan alat tambal khusus untuk memasukkan karet tambal.\n4. Potong sisa karet yang menonjol.\n\n**Alat dan Bahan:** Alat tambal ban tubeless, karet tambal, cutter."
+        ],
+        "context": "masalah_ban"
+      },
+      {
+        "tag": "masalah_ban_dalam",
+        "patterns": ["Menggunakan ban dalam", "Ban dalam bocor"],
+        "responses": [
+          "Untuk ban dengan ban dalam yang bocor, berikut cara menambalnya:\n\n**Langkah-langkah:**\n1. Lepaskan roda dari motor.\n2. Keluarkan ban dalam dari ban luar.\n3. Temukan lokasi kebocoran dengan merendam ban dalam air.\n4. Bersihkan area bocor dan amplas permukaannya.\n5. Oleskan lem dan tempelkan tambalan.\n6. Pasang kembali ban dalam ke ban luar dan pasang roda ke motor.\n\n**Alat dan Bahan:** Tambalan ban, lem khusus ban, kunci roda, pompa angin."
+        ],
+        "context": "masalah_ban"
+      },
+      {
+        "tag": "perawatan_rantai_awal",
+        "patterns": ["Bagaimana cara merawat rantai motor?", "Rantai motor saya kendor", "Rantai berisik saat dikendarai"],
+        "responses": ["Apakah Anda ingin menyetel kekencangan rantai atau membersihkannya?"],
+        "context": "perawatan_rantai"
+      },
+      {
+        "tag": "perawatan_rantai_setel",
+        "patterns": ["Menyetel rantai", "Mengencangkan rantai", "Setel rantai"],
+        "responses": [
+          "Berikut adalah cara menyetel rantai motor:\n\n**Langkah-langkah:**\n1. Longgarkan baut as roda belakang.\n2. Putar adjuster rantai untuk mengatur kekencangan.\n3. Pastikan kelonggaran rantai sekitar 2-3 cm.\n4. Kencangkan kembali baut as roda.\n\n**Alat dan Bahan:** Kunci pas, penggaris."
+        ],
+        "context": "perawatan_rantai"
+      },
+      {
+        "tag": "perawatan_rantai_bersih",
+        "patterns": ["Membersihkan rantai", "Bersihkan rantai", "Rantai kotor"],
+        "responses": [
+          "Berikut adalah cara membersihkan rantai motor:\n\n**Langkah-langkah:**\n1. Bersihkan rantai dengan sikat dan cairan pembersih.\n2. Bilas dengan air bersih.\n3. Keringkan rantai dengan lap.\n4. Lumasi rantai dengan pelumas khusus.\n\n**Alat dan Bahan:** Sikat rantai, cairan pembersih, pelumas rantai."
+        ],
+        "context": "perawatan_rantai"
+      },
+      {
+        "tag": "ganti_busi_awal",
+        "patterns": ["Bagaimana cara mengganti busi?", "Motor saya sulit dihidupkan", "Busi motor saya bermasalah"],
+        "responses": ["Apakah Anda sudah memeriksa kondisi busi?"],
+        "context": "ganti_busi"
+      },
+      {
+        "tag": "ganti_busi_sudah",
+        "patterns": ["Sudah", "Sudah memeriksa", "Busi kotor", "Busi aus"],
+        "responses": [
+          "Jika busi kotor atau aus, berikut cara menggantinya:\n\n**Langkah-langkah:**\n1. Lepaskan kabel busi.\n2. Gunakan kunci busi untuk melepas busi lama.\n3. Pasang busi baru sesuai spesifikasi.\n4. Kencangkan busi dengan benar.\n5. Pasang kembali kabel busi.\n\n**Alat dan Bahan:** Busi baru, kunci busi."
+        ],
+        "context": "ganti_busi"
+      },
+      {
+        "tag": "ganti_busi_belum",
+        "patterns": ["Belum", "Belum memeriksa", "Tidak tahu"],
+        "responses": [
+          "Sebaiknya periksa kondisi busi terlebih dahulu. Jika Anda membutuhkan panduan, berikut caranya:\n\n**Langkah-langkah:**\n1. Lepaskan kabel busi dari busi.\n2. Gunakan kunci busi untuk melepas busi.\n3. Periksa elektroda busi apakah kotor atau aus.\n\n**Alat dan Bahan:** Kunci busi."
+        ],
+        "context": "ganti_busi"
+      },
+      {
+        "tag": "perawatan_filter_udara_awal",
+        "patterns": ["Bagaimana cara membersihkan filter udara?", "Motor saya terasa berat", "Perawatan filter udara motor"],
+        "responses": ["Apakah Anda ingin membersihkan atau mengganti filter udara?"],
+        "context": "perawatan_filter_udara"
+      },
+      {
+        "tag": "perawatan_filter_udara_bersih",
+        "patterns": ["Membersihkan", "Bersihkan filter udara", "Ingin membersihkan"],
+        "responses": [
+          "Berikut cara membersihkan filter udara:\n\n**Langkah-langkah:**\n1. Buka kotak filter udara.\n2. Keluarkan filter udara.\n3. Bersihkan dengan udara bertekanan atau cuci dengan air sabun (untuk tipe busa).\n4. Keringkan hingga benar-benar kering.\n5. Pasang kembali filter udara.\n\n**Alat dan Bahan:** Obeng, air sabun, kain lap."
+        ],
+        "context": "perawatan_filter_udara"
+      },
+      {
+        "tag": "perawatan_filter_udara_ganti",
+        "patterns": ["Mengganti", "Ganti filter udara", "Ingin mengganti"],
+        "responses": [
+          "Berikut cara mengganti filter udara:\n\n**Langkah-langkah:**\n1. Beli filter udara baru sesuai spesifikasi.\n2. Buka kotak filter udara.\n3. Keluarkan filter udara lama.\n4. Pasang filter udara baru.\n5. Tutup kembali kotak filter udara.\n\n**Alat dan Bahan:** Obeng, filter udara baru."
+        ],
+        "context": "perawatan_filter_udara"
+      },
+      {
+        "tag": "penyetelan_karburator_awal",
+        "patterns": ["Bagaimana cara menyetel karburator?", "Motor saya boros bensin", "Mesin motor sering mati sendiri"],
+        "responses": ["Apakah Anda ingin menyetel campuran udara dan bahan bakar atau menyetel idle?"],
+        "context": "penyetelan_karburator"
+      },
+      {
+        "tag": "penyetelan_karburator_campuran",
+        "patterns": ["Campuran udara dan bahan bakar", "Setel campuran", "Mengatur campuran"],
+        "responses": [
+          "Berikut cara menyetel campuran udara dan bahan bakar:\n\n**Langkah-langkah:**\n1. Cari sekrup penyetel udara pada karburator.\n2. Putar sekrup searah jarum jam untuk mengurangi udara, berlawanan untuk menambah.\n3. Sesuaikan hingga mesin berjalan stabil.\n\n**Alat dan Bahan:** Obeng minus."
+        ],
+        "context": "penyetelan_karburator"
+      },
+      {
+        "tag": "penyetelan_karburator_idle",
+        "patterns": ["Setel idle", "Mengatur idle", "Idle tidak stabil"],
+        "responses": [
+          "Berikut cara menyetel idle:\n\n**Langkah-langkah:**\n1. Hidupkan mesin dan biarkan mencapai suhu kerja.\n2. Cari sekrup penyetel idle pada karburator.\n3. Putar sekrup untuk menyesuaikan putaran mesin.\n4. Sesuaikan hingga putaran mesin stabil pada RPM yang direkomendasikan.\n\n**Alat dan Bahan:** Obeng minus."
+        ],
+        "context": "penyetelan_karburator"
+      },
+      {
+        "tag": "perawatan_aki_awal",
+        "patterns": ["Bagaimana cara merawat aki motor?", "Aki motor saya soak", "Cara mengisi ulang aki motor"],
+        "responses": ["Apakah aki Anda tipe basah atau kering?"],
+        "context": "perawatan_aki"
+      },
+      {
+        "tag": "perawatan_aki_basah",
+        "patterns": ["Aki basah", "Menggunakan aki basah"],
+        "responses": [
+          "Berikut cara merawat aki basah:\n\n**Langkah-langkah:**\n1. Periksa level air aki secara berkala.\n2. Tambahkan air aki jika kurang.\n3. Bersihkan terminal aki dari korosi.\n\n**Alat dan Bahan:** Air aki, sikat kawat."
+        ],
+        "context": "perawatan_aki"
+      },
+      {
+        "tag": "perawatan_aki_kering",
+        "patterns": ["Aki kering", "Menggunakan aki kering"],
+        "responses": [
+          "Aki kering memerlukan perawatan minimal. Jika aki soak, berikut yang dapat Anda lakukan:\n\n**Langkah-langkah:**\n1. Periksa tegangan aki dengan multimeter.\n2. Lakukan pengisian ulang dengan charger aki jika tegangan rendah.\n3. Ganti aki jika tidak bisa diisi ulang.\n\n**Alat dan Bahan:** Multimeter, charger aki."
+        ],
+        "context": "perawatan_aki"
+      },
+      {
+        "tag": "perbaikan_kabel_kopling_awal",
+        "patterns": ["Bagaimana cara menyetel kabel kopling?", "Kopling motor saya keras", "Kabel kopling terasa kendor"],
+        "responses": ["Apakah Anda ingin menyetel kekencangan kabel kopling atau melumasinya?"],
+        "context": "perbaikan_kabel_kopling"
+      },
+      {
+        "tag": "perbaikan_kabel_kopling_setel",
+        "patterns": ["Menyetel kekencangan", "Setel kabel kopling", "Mengencangkan kabel kopling"],
+        "responses": [
+          "Berikut cara menyetel kabel kopling:\n\n**Langkah-langkah:**\n1. Temukan adjuster kabel kopling di dekat tuas kopling atau di mesin.\n2. Putar adjuster untuk mengatur kekencangan kabel.\n3. Pastikan ada sedikit kelonggaran (sekitar 2-3 mm) pada tuas kopling.\n4. Kencangkan mur pengunci setelah penyetelan.\n\n**Alat dan Bahan:** Kunci pas atau tang."
+        ],
+        "context": "perbaikan_kabel_kopling"
+      },
+      {
+        "tag": "perbaikan_kabel_kopling_lumas",
+        "patterns": ["Melumasi kabel kopling", "Kabel kopling seret", "Kopling tidak lancar"],
+        "responses": [
+          "Berikut cara melumasi kabel kopling:\n\n**Langkah-langkah:**\n1. Lepaskan kabel kopling dari tuas dan mesin.\n2. Teteskan pelumas kabel ke dalam selongsong kabel.\n3. Gerakkan kabel untuk memastikan pelumas tersebar merata.\n4. Pasang kembali kabel kopling.\n\n**Alat dan Bahan:** Pelumas kabel, obeng, kunci pas."
+        ],
+        "context": "perbaikan_kabel_kopling"
+      },
+      {
+        "tag": "ganti_lampu_awal",
+        "patterns": ["Bagaimana cara mengganti lampu depan?", "Lampu motor saya mati", "Cara mengganti lampu sein", "Lampu bermasalah"],
+        "responses": ["Lampu mana yang bermasalah? Apakah lampu depan, belakang, atau sein?"],
+        "context": "ganti_lampu"
+      },
+      {
+        "tag": "ganti_lampu_depan",
+        "patterns": ["Lampu depan", "Lampu depan mati", "Masalah pada lampu depan"],
+        "responses": [
+          "Berikut cara mengganti lampu depan:\n\n**Langkah-langkah:**\n1. Beli bohlam lampu depan yang sesuai dengan motor Anda.\n2. Buka penutup lampu depan dengan melepas baut atau klip pengunci.\n3. Lepaskan bohlam lama dari soketnya.\n4. Pasang bohlam baru dengan hati-hati.\n5. Pasang kembali penutup lampu.\n\n**Alat dan Bahan:** Bohlam baru, obeng."
+        ],
+        "context": "ganti_lampu"
+      },
+      {
+        "tag": "ganti_lampu_belakang",
+        "patterns": ["Lampu belakang", "Lampu rem mati", "Masalah pada lampu belakang"],
+        "responses": [
+          "Berikut cara mengganti lampu belakang:\n\n**Langkah-langkah:**\n1. Beli bohlam lampu belakang yang sesuai.\n2. Buka penutup lampu belakang dengan melepas baut atau klip pengunci.\n3. Lepaskan bohlam lama dan ganti dengan yang baru.\n4. Pasang kembali penutup lampu.\n\n**Alat dan Bahan:** Bohlam baru, obeng."
+        ],
+        "context": "ganti_lampu"
+      },
+      {
+        "tag": "ganti_lampu_sein",
+        "patterns": ["Lampu sein", "Sein tidak berkedip", "Masalah pada lampu sein"],
+        "responses": [
+          "Berikut cara mengganti lampu sein:\n\n**Langkah-langkah:**\n1. Beli bohlam sein yang sesuai.\n2. Buka cover lampu sein dengan hati-hati.\n3. Lepaskan bohlam lama dan pasang bohlam baru.\n4. Pasang kembali cover lampu sein.\n\n**Alat dan Bahan:** Bohlam sein baru, obeng."
+        ],
+        "context": "ganti_lampu"
+      },
+      {
+        "tag": "masalah_karburator_awal",
+        "patterns": ["Motor saya susah hidup", "Karburator bermasalah", "Bagaimana cara membersihkan karburator?", "Karburator kotor"],
+        "responses": ["Apakah Anda ingin membersihkan karburator atau menyetel ulang karburator?"],
+        "context": "masalah_karburator"
+      },
+      {
+        "tag": "masalah_karburator_bersih",
+        "patterns": ["Membersihkan karburator", "Ingin membersihkan", "Karburator kotor"],
+        "responses": [
+          "Berikut cara membersihkan karburator:\n\n**Langkah-langkah:**\n1. Lepaskan karburator dari mesin.\n2. Buka bagian-bagian karburator dengan hati-hati.\n3. Bersihkan semua komponen dengan cairan pembersih karburator.\n4. Keringkan dan pasang kembali karburator.\n\n**Alat dan Bahan:** Obeng, cairan pembersih karburator, kain bersih."
+        ],
+        "context": "masalah_karburator"
+      },
+      {
+        "tag": "masalah_karburator_setel",
+        "patterns": ["Menyetel karburator", "Setel ulang karburator", "Karburator tidak berfungsi dengan baik"],
+        "responses": [
+          "Berikut cara menyetel ulang karburator:\n\n**Langkah-langkah:**\n1. Hidupkan mesin dan biarkan hingga suhu kerja.\n2. Atur sekrup udara dan bahan bakar hingga mendapatkan campuran yang optimal.\n3. Sesuaikan putaran idle mesin.\n\n**Alat dan Bahan:** Obeng minus."
+        ],
+        "context": "masalah_karburator"
+      },
+      {
+        "tag": "masalah_radiator_awal",
+        "patterns": ["Motor saya cepat panas", "Mesin overheat", "Bagaimana cara merawat radiator?"],
+        "responses": ["Apakah Anda ingin memeriksa cairan radiator atau membersihkan radiator?"],
+        "context": "masalah_radiator"
+      },
+      {
+        "tag": "masalah_radiator_cairan",
+        "patterns": ["Memeriksa cairan radiator", "Cairan radiator habis", "Radiator bocor"],
+        "responses": [
+          "Berikut cara memeriksa dan menambah cairan radiator:\n\n**Langkah-langkah:**\n1. Pastikan mesin dalam keadaan dingin.\n2. Buka tutup radiator dengan hati-hati.\n3. Periksa level cairan radiator.\n4. Tambahkan cairan radiator jika kurang.\n\n**Alat dan Bahan:** Cairan radiator, kain lap."
+        ],
+        "context": "masalah_radiator"
+      },
+      {
+        "tag": "masalah_radiator_bersih",
+        "patterns": ["Membersihkan radiator", "Radiator kotor", "Ingin membersihkan radiator"],
+        "responses": [
+          "Berikut cara membersihkan radiator:\n\n**Langkah-langkah:**\n1. Lepaskan radiator dari motor jika diperlukan.\n2. Bersihkan sirip radiator dengan air bertekanan rendah.\n3. Hindari merusak sirip radiator.\n4. Pasang kembali radiator.\n\n**Alat dan Bahan:** Air bersih, sikat lembut."
+        ],
+        "context": "masalah_radiator"
+      },
+      {
+        "tag": "masalah_rem_cakram_awal",
+        "patterns": ["Rem cakram saya bermasalah", "Rem depan tidak pakem", "Bagaimana cara mengganti kampas rem cakram?"],
+        "responses": ["Apakah Anda ingin mengganti kampas rem atau mengeluarkan udara dari sistem rem?"],
+        "context": "masalah_rem_cakram"
+      },
+      {
+        "tag": "masalah_rem_cakram_ganti_kampas",
+        "patterns": ["Mengganti kampas rem", "Kampas rem habis", "Ganti kampas rem cakram"],
+        "responses": [
+          "Berikut cara mengganti kampas rem cakram:\n\n**Langkah-langkah:**\n1. Lepaskan kaliper rem dari cakram.\n2. Keluarkan kampas rem lama.\n3. Pasang kampas rem baru.\n4. Pasang kembali kaliper rem.\n\n**Alat dan Bahan:** Kampas rem baru, kunci pas, obeng."
+        ],
+        "context": "masalah_rem_cakram"
+      },
+      {
+        "tag": "masalah_rem_cakram_udara",
+        "patterns": ["Mengeluarkan udara dari sistem rem", "Rem terasa kosong", "Rem tidak berfungsi"],
+        "responses": [
+          "Berikut cara mengeluarkan udara dari sistem rem:\n\n**Langkah-langkah:**\n1. Buka tutup reservoir cairan rem.\n2. Hubungkan selang ke nipel pembuangan udara pada kaliper.\n3. Pompa tuas rem beberapa kali.\n4. Buka nipel untuk mengeluarkan udara sambil menekan tuas rem.\n5. Tutup kembali nipel dan ulangi hingga tidak ada udara.\n\n**Alat dan Bahan:** Kunci pas, selang transparan, cairan rem."
+        ],
+        "context": "masalah_rem_cakram"
+      },
+      {
+        "tag": "masalah_kopling_awal",
+        "patterns": ["Kopling saya selip", "Motor tidak bertenaga", "Bagaimana cara mengganti kampas kopling?"],
+        "responses": ["Apakah Anda ingin menyetel kabel kopling atau mengganti kampas kopling?"],
+        "context": "masalah_kopling"
+      },
+      {
+        "tag": "masalah_kopling_setel_kabel",
+        "patterns": ["Menyetel kabel kopling", "Kopling keras", "Setel kopling"],
+        "responses": [
+          "Berikut cara menyetel kabel kopling:\n\n**Langkah-langkah:**\n1. Temukan adjuster kabel kopling.\n2. Putar adjuster untuk mengatur kelonggaran kabel.\n3. Pastikan tuas kopling memiliki kelonggaran sekitar 2-3 mm.\n\n**Alat dan Bahan:** Kunci pas atau tang."
+        ],
+        "context": "masalah_kopling"
+      },
+      {
+        "tag": "masalah_kopling_ganti_kampas",
+        "patterns": ["Mengganti kampas kopling", "Kampas kopling habis", "Ganti kampas kopling"],
+        "responses": [
+          "Berikut cara mengganti kampas kopling:\n\n**Langkah-langkah:**\n1. Kuras oli mesin.\n2. Lepaskan tutup kopling di sisi mesin.\n3. Keluarkan kampas kopling lama.\n4. Pasang kampas kopling baru.\n5. Pasang kembali tutup kopling dan isi oli mesin.\n\n**Alat dan Bahan:** Kampas kopling baru, kunci pas, oli mesin."
+        ],
+        "context": "masalah_kopling"
+      },
+      {
+        "tag": "masalah_kelistrikan_awal",
+        "patterns": ["Lampu tidak menyala", "Motor saya tidak bisa distarter", "Masalah pada kelistrikan"],
+        "responses": ["Bagian kelistrikan mana yang bermasalah? Starter, lampu, atau pengapian?"],
+        "context": "masalah_kelistrikan"
+      },
+      {
+        "tag": "masalah_kelistrikan_starter",
+        "patterns": ["Starter tidak berfungsi", "Tidak bisa distarter", "Starter mati"],
+        "responses": [
+          "Berikut cara memeriksa starter motor:\n\n**Langkah-langkah:**\n1. Periksa tegangan aki.\n2. Periksa koneksi kabel starter.\n3. Periksa sekering (fuse) dan ganti jika putus.\n\n**Alat dan Bahan:** Multimeter, sekering cadangan."
+        ],
+        "context": "masalah_kelistrikan"
+      },
+      {
+        "tag": "masalah_kelistrikan_lampu",
+        "patterns": ["Lampu tidak menyala", "Semua lampu mati", "Masalah pada lampu"],
+        "responses": [
+          "Berikut cara memeriksa sistem lampu:\n\n**Langkah-langkah:**\n1. Periksa bohlam lampu dan ganti jika putus.\n2. Periksa sekering lampu.\n3. Periksa koneksi kabel dan soket lampu.\n\n**Alat dan Bahan:** Bohlam baru, multimeter, sekering cadangan."
+        ],
+        "context": "masalah_kelistrikan"
+      },
+      {
+        "tag": "masalah_kelistrikan_pengapian",
+        "patterns": ["Motor tidak ada api", "Pengapian bermasalah", "Mesin tidak menyala"],
+        "responses": [
+          "Berikut cara memeriksa sistem pengapian:\n\n**Langkah-langkah:**\n1. Periksa busi dan ganti jika rusak.\n2. Periksa koil pengapian.\n3. Periksa CDI atau ECU jika ada.\n\n**Alat dan Bahan:** Busi baru, multimeter."
+        ],
+        "context": "masalah_kelistrikan"
+      },
+      {
+        "tag": "masalah_suspensi_awal",
+        "patterns": ["Motor saya tidak stabil", "Suspensi keras", "Bagaimana cara merawat suspensi?"],
+        "responses": ["Apakah Anda ingin memeriksa suspensi depan atau belakang?"],
+        "context": "masalah_suspensi"
+      },
+      {
+        "tag": "masalah_suspensi_depan",
+        "patterns": ["Suspensi depan", "Shock depan bocor", "Garpu depan bermasalah"],
+        "responses": [
+          "Berikut cara memeriksa dan merawat suspensi depan:\n\n**Langkah-langkah:**\n1. Periksa kebocoran oli pada shock depan.\n2. Ganti seal shock jika bocor.\n3. Ganti oli shock secara berkala.\n\n**Alat dan Bahan:** Seal shock baru, oli shock, kunci pas."
+        ],
+        "context": "masalah_suspensi"
+      },
+      {
+        "tag": "masalah_suspensi_belakang",
+        "patterns": ["Suspensi belakang", "Shock belakang keras", "Swing arm berisik"],
+        "responses": [
+          "Berikut cara memeriksa dan merawat suspensi belakang:\n\n**Langkah-langkah:**\n1. Periksa kondisi shock absorber belakang.\n2. Sesuaikan tingkat kekerasan jika bisa disetel.\n3. Lumasi pivot swing arm jika berisik.\n\n**Alat dan Bahan:** Pelumas, kunci pas."
+        ],
+        "context": "masalah_suspensi"
+      },
+      {
+        "tag": "masalah_transmisi_awal",
+        "patterns": ["Gigi perseneling keras", "Sulit pindah gigi", "Transmisi bermasalah"],
+        "responses": ["Apakah Anda menggunakan transmisi manual atau otomatis?"],
+        "context": "masalah_transmisi"
+      },
+      {
+        "tag": "masalah_transmisi_manual",
+        "patterns": ["Transmisi manual", "Gigi manual", "Perseneling manual"],
+        "responses": [
+          "Berikut cara merawat transmisi manual:\n\n**Langkah-langkah:**\n1. Periksa dan ganti oli transmisi jika perlu.\n2. Sesuaikan kopling agar perpindahan gigi lancar.\n3. Periksa rantai dan sprocket.\n\n**Alat dan Bahan:** Oli transmisi, kunci pas."
+        ],
+        "context": "masalah_transmisi"
+      },
+      {
+        "tag": "masalah_transmisi_otomatis",
+        "patterns": ["Transmisi otomatis", "Motor matic", "Perseneling otomatis"],
+        "responses": [
+          "Berikut cara merawat transmisi otomatis:\n\n**Langkah-langkah:**\n1. Periksa dan ganti oli CVT secara berkala.\n2. Bersihkan CVT dari debu dan kotoran.\n3. Periksa kondisi belt CVT dan roller.\n\n**Alat dan Bahan:** Oli CVT, kunci pas, kain bersih."
+        ],
+        "context": "masalah_transmisi"
+      },
+      {
+        "tag": "perawatan_ban_awal",
+        "patterns": ["Bagaimana cara merawat ban motor?", "Ban cepat aus", "Tips perawatan ban"],
+        "responses": ["Apakah Anda ingin memeriksa tekanan angin atau mengganti ban?"],
+        "context": "perawatan_ban"
+      },
+      {
+        "tag": "perawatan_ban_tekanan",
+        "patterns": ["Memeriksa tekanan angin", "Tekanan ban", "Ban kempes"],
+        "responses": [
+          "Berikut cara memeriksa tekanan angin ban:\n\n**Langkah-langkah:**\n1. Gunakan pengukur tekanan ban.\n2. Sesuaikan tekanan angin sesuai rekomendasi pabrik.\n3. Periksa tekanan angin secara berkala.\n\n**Alat dan Bahan:** Pengukur tekanan ban, pompa angin."
+        ],
+        "context": "perawatan_ban"
+      },
+      {
+        "tag": "perawatan_ban_ganti",
+        "patterns": ["Mengganti ban", "Ban aus", "Ban gundul"],
+        "responses": [
+          "Berikut cara mengganti ban motor:\n\n**Langkah-langkah:**\n1. Lepaskan roda dari motor.\n2. Keluarkan ban lama dari velg.\n3. Pasang ban baru pada velg.\n4. Pasang kembali roda ke motor.\n\n**Alat dan Bahan:** Ban baru, kunci roda, tire lever."
+        ],
+        "context": "perawatan_ban"
+      },
+      {
+        "tag": "perpisahan",
+        "patterns": ["Terima kasih", "Sampai jumpa", "Bye"],
+        "responses": ["Sama-sama!", "Senang bisa membantu Anda.", "Sampai jumpa kembali!"]
+      },
+      {
+        "tag": "lainnya",
+        "patterns": [],
+        "responses": ["Maaf, saya belum terlatih untuk menjawab pertanyaan tersebut. Bisa Anda jelaskan dengan kata lain?"]
+      },
+      {
+        "tag": "cek_ban_motor",
+        "patterns": [
+          "Bagaimana cara memeriksa tekanan ban motor?",
+          "Kapan harus mengganti ban motor?",
+          "Apa tanda ban motor perlu diganti?"
+        ],
+        "responses": [
+          "Tekanan ban dapat diperiksa menggunakan alat pengukur tekanan ban. Pastikan tekanan sesuai spesifikasi pabrik, biasanya tertera di manual motor. Ganti ban jika permukaan sudah halus atau terdapat keretakan."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "motor_mogok",
+        "patterns": [
+          "Kenapa motor mogok tiba-tiba?",
+          "Apa penyebab motor mati mendadak saat jalan?",
+          "Motor mogok, apa yang harus dicek?"
+        ],
+        "responses": [
+          "Motor mogok bisa disebabkan oleh kehabisan bahan bakar, aki lemah, busi rusak, atau saringan udara tersumbat. Cek bahan bakar terlebih dahulu, lalu lanjutkan dengan komponen lainnya."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "perbaikan_sederhana",
+        "patterns": [
+          "Apa saja perbaikan sederhana motor yang bisa dilakukan pemula?",
+          "Bagaimana cara mengganti busi motor?",
+          "Apa alat yang perlu disiapkan untuk memperbaiki motor?"
+        ],
+        "responses": [
+          "Pemula dapat melakukan perbaikan seperti mengganti busi, memeriksa tekanan ban, dan mengganti oli. Alat yang perlu disiapkan meliputi kunci busi, pompa angin, dan kunci pas dasar."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "motor_bergetar",
+        "patterns": [
+          "Kenapa motor saya terasa bergetar saat jalan?",
+          "Apa penyebab motor bergetar pada kecepatan tinggi?",
+          "Bagaimana mengatasi motor yang bergetar?"
+        ],
+        "responses": [
+          "Motor bergetar bisa disebabkan oleh roda yang tidak balance, suspensi yang bermasalah, atau rantai yang kendor. Lakukan balancing roda di bengkel dan pastikan semua baut roda terpasang dengan kencang."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "membersihkan_motor",
+        "patterns": [
+          "Bagaimana cara membersihkan motor dengan benar?",
+          "Tips membersihkan motor agar tidak merusak cat?",
+          "Apa alat yang diperlukan untuk mencuci motor?"
+        ],
+        "responses": [
+          "Gunakan sabun khusus kendaraan dan kain lembut untuk membersihkan motor. Hindari mencuci mesin saat panas dan jangan gunakan deterjen yang bisa merusak cat. Pastikan semua bagian kering sebelum digunakan kembali."
+        ],
+        "context": [""]
+      },
+  
+      {
+        "tag": "motor_mendadak_berisik",
+        "patterns": [
+          "Motor saya tiba-tiba mengeluarkan suara berisik",
+          "Kenapa motor mendadak berbunyi kasar?",
+          "Ada suara aneh dari mesin saat saya mengendarai",
+          "Mesin motor terdengar berisik secara tiba-tiba",
+          "Suara motor mendadak seperti gesekan logam"
+        ],
+        "responses": [
+          "Suara berisik mendadak dapat disebabkan oleh rantai yang kendor, komponen mesin aus, atau baut yang longgar. Periksa rantai, pastikan semua baut terpasang kencang, dan cek kondisi bearing atau piston. Jika ragu, konsultasikan ke bengkel."
+        ],
+        "context": [""]
+      },
+
+      {
+        "tag": "motor_terlalu_panas",
+        "patterns": [
+          "Kenapa motor saya cepat panas?",
+          "Mengapa mesin terasa overheat saat jalan?",
+          "Motor jadi panas berlebih, apa penyebabnya?",
+          "Mesin motor terasa suhu di atas normal",
+          "Motor saya sering sekali overheat akhir-akhir ini"
+        ],
+        "responses": [
+          "Motor yang terlalu panas bisa terjadi karena oli mesin habis atau tidak sesuai, radiator kotor, atau sistem pendingin bermasalah. Cek kualitas dan jumlah oli, pastikan radiator bersih, dan periksa kipas pendingin. Jika masih overheat, bawa ke bengkel."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "bau_knalpot_tidak_wajar",
+        "patterns": [
+          "Kenapa knalpot motor saya bau aneh?",
+          "Knalpot mengeluarkan aroma tidak biasa",
+          "Tercium bau gosong dari knalpot",
+          "Bau menyengat keluar dari knalpot motor saya",
+          "Knalpot berbau seperti karet terbakar, kenapa ya?"
+        ],
+        "responses": [
+          "Bau tidak wajar dari knalpot bisa disebabkan oleh pembakaran tidak sempurna, busi kotor, filter udara tersumbat, atau oli menetes ke knalpot. Periksa busi, filter udara, dan pastikan tidak ada kebocoran oli. Jika masalah berlanjut, periksakan ke bengkel."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "motor_getar_tidak_nyaman",
+        "patterns": [
+          "Motor saya terasa bergetar saat dikendarai",
+          "Kenapa motor bergetar tidak nyaman di kecepatan rendah?",
+          "Getaran aneh saat motor jalan pelan",
+          "Motor bergetar berlebihan, apa sebabnya?",
+          "Ada vibrasi yang mengganggu saat berkendara"
+        ],
+        "responses": [
+          "Getaran berlebih bisa berasal dari roda yang tidak balance, suspensi bermasalah, atau rantai kendor. Cek balancing roda, kencangkan rantai, dan pastikan suspensi berfungsi dengan baik. Jika getaran tetap ada, minta bantuan bengkel."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "suara_mendengung_roda",
+        "patterns": [
+          "Kenapa terdengar dengungan dari roda motor saya?",
+          "Roda motor berbunyi seperti mendengung saat jalan",
+          "Ada suara humming di bagian roda",
+          "Roda depan mengeluarkan suara aneh",
+          "Suara mendengung muncul saat motor melaju"
+        ],
+        "responses": [
+          "Suara mendengung dari roda bisa disebabkan bearing roda yang aus atau ban yang tidak rata. Periksa kondisi bearing, pastikan ban tidak benjol, dan lakukan balancing ulang jika diperlukan."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "mesin_tersendat",
+        "patterns": [
+          "Motor saya sering tersendat-sendat",
+          "Mesin terasa tidak lancar saat akselerasi",
+          "Kenapa motor seperti mau mati saat gas ditarik?",
+          "Motor nyendat saat jalan pelan",
+          "Tersendat saat perpindahan gigi"
+        ],
+        "responses": [
+          "Mesin tersendat dapat terjadi karena filter udara kotor, karburator bermasalah, atau injektor tersumbat (pada motor injeksi). Bersihkan filter, setel ulang karburator, atau periksa injektor. Pastikan juga busi dalam kondisi baik."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "motor_susah_dihidupkan",
+        "patterns": [
+          "Kenapa motor susah hidup pagi hari?",
+          "Sulit menyalakan motor setelah lama tidak dipakai",
+          "Motor lama distarter, apa penyebabnya?",
+          "Mengapa saya harus berkali-kali starter motor?",
+          "Motor tidak langsung menyala meski sudah distarter lama"
+        ],
+        "responses": [
+          "Motor yang susah dihidupkan bisa karena aki lemah, busi kotor, atau karburator/ injektor bermasalah. Coba periksa kondisi aki, bersihkan busi, dan pastikan karburator atau injektor tidak tersumbat."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "motor_tiba_tiba_mati",
+        "patterns": [
+          "Motor saya tiba-tiba mogok di tengah jalan",
+          "Kenapa mesin mendadak mati saat berkendara?",
+          "Motor berhenti mendadak tanpa sebab jelas",
+          "Mesin mati secara tiba-tiba saat gas dilepas",
+          "Mengapa motor langsung mati padahal bensin ada?"
+        ],
+        "responses": [
+          "Motor yang mendadak mati bisa disebabkan bahan bakar kotor, busi rusak, sistem pengapian lemah, atau sirkulasi udara tersumbat. Cek busi, pastikan bahan bakar bersih, dan periksa jalur udara. Jika perlu, periksakan ke bengkel."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "lampu_redup",
+        "patterns": [
+          "Lampu motor saya redup, kenapa?",
+          "Kenapa cahaya lampu tidak seterang biasanya?",
+          "Lampu depan meredup saat mesin dijalankan",
+          "Terasa kurang terang lampunya, apa sebabnya?",
+          "Lampu motor kurang cemerlang akhir-akhir ini"
+        ],
+        "responses": [
+          "Lampu redup bisa disebabkan aki lemah, bohlam yang mulai rusak, atau masalah pada regulator tegangan. Periksa aki, ganti bohlam jika perlu, dan cek sistem kelistrikan jika masalah berlanjut."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "rem_kurang_pakem",
+        "patterns": [
+          "Rem saya tidak pakem seperti dulu",
+          "Kenapa rem motor jadi kurang menggigit?",
+          "Rem terasa licin dan tidak langsung menghentikan motor",
+          "Rem tidak responsif saat ditekan",
+          "Sulit menghentikan motor karena rem terasa lemah"
+        ],
+        "responses": [
+          "Rem kurang pakem dapat disebabkan oleh kampas rem aus, cairan rem berkurang, atau rotor cakram yang bermasalah. Ganti kampas rem jika sudah tipis, tambahkan cairan rem, dan pastikan tidak ada udara dalam sistem rem."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "suspensi_keras",
+        "patterns": [
+          "Suspensi depan terasa keras",
+          "Motor saya tidak nyaman karena shock terlalu kaku",
+          "Kenapa motor terasa menghentak saat lewat jalan berlubang?",
+          "Suspensi tidak menyerap guncangan dengan baik",
+          "Goncangan terasa lebih parah dari biasanya"
+        ],
+        "responses": [
+          "Suspensi keras dapat disebabkan oleh oli shock yang kotor atau kurang, seal shock bocor, atau pengaturan suspensi yang tidak tepat. Ganti oli shock, periksa seal, dan setel suspensi sesuai rekomendasi pabrikan."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "transmisi_macet",
+        "patterns": [
+          "Gigi perseneling sulit dipindahkan",
+          "Kenapa transmisi terasa macet?",
+          "Perseneling keras saat ganti gigi",
+          "Sulit masuk gigi pada transmisi manual",
+          "Transmisi terasa berat ketika pindah gigi"
+        ],
+        "responses": [
+          "Transmisi macet bisa disebabkan oleh oli transmisi yang kotor atau kurang, kopling yang tidak disetel dengan baik, atau gear dalam gearbox aus. Periksa oli transmisi, setel kopling, dan pastikan kondisi gear masih baik."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "motor_berbau_gosong",
+        "patterns": [
+          "Tercium bau gosong dari area mesin",
+          "Kenapa ada bau seperti terbakar pada motor?",
+          "Motor saya menimbulkan aroma gosong",
+          "Ada bau aneh seperti hangus saat mesin panas",
+          "Bau terbakar muncul ketika saya pakai motor"
+        ],
+        "responses": [
+          "Bau gosong dapat disebabkan oli yang bocor ke bagian panas mesin, kampas rem yang bergesekan berlebih, atau kabel kelistrikan yang korsleting. Periksa kebocoran oli, pastikan rem tidak macet, dan cek kabel untuk menghindari hubungan pendek."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "knalpot_berasap_tebal",
+        "patterns": [
+          "Kenapa knalpot mengeluarkan asap tebal?",
+          "Asap knalpot berwarna putih pekat",
+          "Motor saya berasap hitam saat digas",
+          "Keluar asap berlebih dari knalpot",
+          "Asap knalpot terlalu banyak dan mengganggu"
+        ],
+        "responses": [
+          "Asap tebal dari knalpot dapat disebabkan oleh pembakaran yang tidak sempurna, oli masuk ruang bakar, atau kualitas bahan bakar buruk. Cek kondisi busi, pastikan ring piston dan seal valve tidak bocor, serta gunakan bahan bakar berkualitas."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "ban_bergetar",
+        "patterns": [
+          "Ban depan terasa getar saat jalan",
+          "Kenapa motor berguncang di roda depan?",
+          "Getaran ban terasa kuat di stang",
+          "Ban tidak mulus dan menyebabkan vibrasi",
+          "Roda seperti loncat-loncat saat dijalankan"
+        ],
+        "responses": [
+          "Getaran pada ban biasanya disebabkan ketidakseimbangan roda atau ban yang benjol. Lakukan balancing roda, periksa kondisi ban, dan pastikan tekanan angin sesuai rekomendasi. Jika perlu, ganti ban baru."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "motor_tidak_responsif",
+        "patterns": [
+          "Tarikan motor terasa lemah",
+          "Kenapa motor tidak responsif saat digas?",
+          "Tenaga motor menurun secara tiba-tiba",
+          "Motor sulit mencapai kecepatan normal",
+          "Akselerasi motor terasa lambat dan berat"
+        ],
+        "responses": [
+          "Motor kurang responsif bisa disebabkan oleh filter udara kotor, busi lemah, atau masalah pada injeksi/karburator. Bersihkan filter udara, ganti busi jika perlu, dan setel ulang sistem bahan bakar."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "oli_bocor",
+        "patterns": [
+          "Kenapa ada tetesan oli di lantai?",
+          "Motor saya bocor oli di bagian mesin",
+          "Oli menetes dari bawah mesin",
+          "Terdapat rembesan oli di area blok mesin",
+          "Mesin basah oleh oli yang keluar"
+        ],
+        "responses": [
+          "Kebocoran oli dapat berasal dari seal mesin yang rusak, baut oli kendor, atau gasket yang pecah. Periksa semua seal, kencangkan baut pembuangan oli, dan ganti gasket yang rusak."
+        ],
+        "context": [""]
+      }
+    ]
+  }
